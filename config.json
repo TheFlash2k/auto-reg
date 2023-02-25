@@ -1,0 +1,8 @@
+{
+    "IN_FILE" : "sample.csv",
+    "OUT_FILE" : "output.csv",
+    "URL" : "https://<URL>/api/v1",
+    "TOKEN" : "",
+    "NUM_MEMBERS" : 2,
+    "DEFAULT_EMAIL_DOMAIN" : "test.com"
+}
