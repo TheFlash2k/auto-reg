@@ -15,7 +15,7 @@ class CTFD:
 
     ''' Validation methods '''
     def is_team(self, team_name : str = None, team_id : int = None):
-        r = requests.get(f"{self.self.URL}/teams", headers=self.headers)
+        r = requests.get(f"{self.URL}/teams", headers=self.headers)
         log(r.json())
         for i in r.json()['data']:
             if i['name'] == team_name or i['id'] == team_id:
